@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Najwiêkszy</h1>
+<h2>Najwiêkszy drugi</h2>
+<h3>Trzeci od pocz¹tku</h3>
+<h4>Trzeci od koñca</h4>
+<h5>Prawie najmniejszy</h5>
+<h6>Najmniejszy</h6>
+
+<p>This is a paragraph.(2E_DamFaj)</p>
+
+
+<!-- Pierwszy plik, w3schools.com, walmirsaw@interia.pl -->
+
+
+</body>
+</html>
