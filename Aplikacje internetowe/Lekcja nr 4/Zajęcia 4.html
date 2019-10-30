@@ -2,22 +2,25 @@
 <html>
 
 <head>
+	<title> Lekcja 4 </title>
+	<meta charset="UTF-8">
 	<style>
 body {background-color: lightgreen;}
-h1   {color: blue;}
-p    {color: red;}
+h1   {color: blue; background-color: rgba(0,0,255,0.2);text-align: central;font-family: verdana;border: 5px solid rgba(255,100,0,0.6);padding: 15px;}
+p    {color: red;text-align: right;background-color: rgba(255,255,0,0.3);font-family: courier; border: 2px solid purple;padding: 5px;margin-left: 10px;margin-right: 2px;}
+p#01 {color: yellow; text-align: center; border: 5px solid black;}
 	</style>
-<head>
+</head>
 
 <body>
 
-<h4> Aby zmienić kolor czcionki użyj </h4>
+<h4> Aby zmienić kolor czcionki użyj: </h4>
 
-<h5 style="color:Tomato;">Siema świat</h5>
+<h5 style="color:Tomato;background-color: lightgreen;">Siema świat</h5>
 
-<p style="color:DodgerBlue;">Ten tekst jest napisany jasno-niebieskim kolorem.</p>
+<p style="color:DodgerBlue;text-align: left;background-color: lightgreen;">Ten tekst jest napisany jasno-niebieskim kolorem.</p>
 
-<p style="color:MediumSeaGreen;">Ten tekst jest napisany jasno-zielonym.</p>
+<p style="color:MediumSeaGreen;text-align: left;background-color: lightgreen;">Ten tekst jest napisany jasno-zielonym.</p>
 <hr><hr><hr>
 
 <h4> Aby zrobić ramkę tekstu należy użyć: </h4>
@@ -37,8 +40,19 @@ p    {color: red;}
 <h5 style="background-color:rgba(255, 99, 71, 0.2);">rgb(255, 99, 71, 0.2)</h5>
 <hr><hr><hr>
 
+<!-- Inline CSS zmienia tylko w danym segmencie. Jest ważniejszy od Internal CSS -->
+<h1 style="color:blue;background-color: green;">This is a Blue Heading</h1>
+<hr>
+
+<!-- Internal CSS zmienia dla wszystkich segmentów danego typu(patrz w head) -->
 <h1> Niebieski(styl w head patrz) </h1>
 
 <p> Czerwony(styl w head patrz) </p>
+<p> Tekst </p>
+<p id="p01">I am different.</p>
+<hr><hr><hr>
+<!-- Padding robi przerwę pomiędzy tekstem a borderem -->
+<!-- Margin robi "margines" tekstu(odległość pomędzy tesktem) -->
+<!-- Można ustawić osobne id dla danej, np p#01 -->
 </body>
 </html>
